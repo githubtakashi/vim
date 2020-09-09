@@ -64,7 +64,7 @@ set hidden
 set showcmd
 " mapleader
 let mapleader = "\<space>"
-nnoremap <Leader>a :echo "Hello"<CR>
+nnoremap <Leader>a :echo "Hello git!"<CR>
 
 " 見た目系
 " 行番号を表示
