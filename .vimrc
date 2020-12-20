@@ -64,7 +64,7 @@ set hidden
 set showcmd
 " mapleader
 let mapleader = "\<space>"
-nnoremap <Leader>a :echo "Hello git!"<CR>
+nnoremap <Leader>a :echo "Hello"<CR>
 
 " 見た目系
 " 行番号を表示
@@ -98,7 +98,7 @@ set tabstop=2
 " 行頭でのTab文字の表示幅
 set shiftwidth=2
 " カラースキーム
-colorscheme murphy
+colorscheme iceberg
 
 " 検索系
 " 検索文字列が小文字の場合は大文字小文字を区別なく検索する
@@ -114,3 +114,5 @@ set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+" session.vim plugin setting
+let g:session_path = '/home/takashi'
